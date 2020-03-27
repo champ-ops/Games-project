@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background: black;
+}
+header{
+  top: 76px;
+  position: absolute;
+  width: 100%;
+  border-bottom: 3px solid #2D96E3;
+  padding-bottom: 22px;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-wrap: wrap;
+}
+.top-menu{
+line-height: 23px;
+  font-size: 20px;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.top-menu_item{
+  width: 197px;
+  height: 38px;
+  background: #292E50;
+  border-radius: 3px;
+  padding: 7px 10px;
+  color: #fff;
+  text-align: center;
+  margin:20px;
+  transition: 1s;
+}
+.svg{
+  width: 197px;
+  height: 38px;
+  background: #292E50;
+  border-radius: 3px;
+  padding: 7px 10px;
+  color: #fff;
+  text-align: center;
+  margin:20px;
+  transition: .6s;
+}
+.top-menu_item:hover{
+  transform: scale(1.02);
+  background: #2C3DAC;
+}
+#main{
+  margin: 0 auto;
+  display: flex;
+  height: 80vh;
+}
+.sub-main {
+  display: flex;
+  top: 216px;
+  left: 40px;
+  position: absolute;
+}
+.col{
+  width: 738px;
+  height: 274px;
+  background: linear-gradient(244.93deg,
+  rgba(41, 46, 80, 0.77) 44.75%, rgba(41, 46, 80, 0) 102.66%);
+  box-shadow: inset 0 4px 12px #000000;
+}
+.col:before{
+  content: "";
+  background: url("https://i.ibb.co/SfHkDfh/image-2.png");
+  left: 369px;
+  position: absolute;
+  top: -86px;
+  width: 503px;
+  height: 360px;
+}
+h3{
+  width: 221px;
+  height: 44px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFF;
+  padding: 42px 0 0 45px;
+}
+.mini-col{
+  position: relative;
+  width: 388px;
+  height: 274px;
+  left: 129px;
+  background: linear-gradient(180deg, #20243E 0%,
+  rgba(32, 36, 62, 0) 87.04%);
+  box-shadow: inset 0 4px 12px #000000;
+}
+.mini-col:before{
+  content: '';
+  background: url("https://i.ibb.co/KjFQMBS/image-3.png");
+  width: 168px;
+  height: 210px;
+  position: absolute;
+  bottom: 128px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.mini-col:after{
+  content: '';
+  background: url("https://i.ibb.co/R7pKDyK/image-4.png");
+  width: 410px;
+  height: 128px;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  right: -11px;
+}
+.contain-2{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  background: radial-gradient(85% 85% at 50% 50%, #33AC38 40.1%,
+  rgba(10, 163, 16, 0) 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 14px;
+  left: 10px;
+  position: absolute;
+}
+#list-of-games h2{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 100px 0 100px 45px;
+}
+.row{
+  flex-wrap: nowrap;
+  margin: 0 -130px;
+}
+.col-4{
+  width: 24%;
+  padding: 0 25px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+img{
+  transition: .6s;
+}
+.col-4 img:hover{
+  transform: scale(1.03);
+}
+.sub-col{
+  background: #292E50;
+  width: 305px;
+  height: 168px;
+  font-family: Montserrat,sans-serif;
+}
+ h4{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #E5E5E5;
+  margin: 20px 0 0 10px;
+}
+.sub-col p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #E5E5E5;
+  margin: 3px 0 0 10px;
+}
+.sub-col p span{
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.button{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin:24px 0 0 10px;
+}
+.button svg{
+  margin: 0 19px 0 20px;
+}
+.button span{
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.btn{
+  width: 188px;
+  height: 50px;
+  background: #2C3DAC;
+  border-radius: 2px;
+  border: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition: .6s;
+}
+.btn:hover{
+  transform: scale(0.9);
+  background: #1d2a7d ;
+}
+.price{
+  width: 88px;
+  height: 50px;
+  background: #4B4C51;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .6s;
+}
+.price a{
+  text-decoration: none;
+  color: white;
+}
+.price:hover{
+  transform: scale(0.9);
+  background: #3E414E ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
