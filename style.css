@@ -68,6 +68,7 @@ a,a:hover{
 margin-bottom: 86px;
 }
 .col{
+  position: relative;
   width: 738px;
   height: 274px;
   background: linear-gradient(244.93deg,
@@ -77,9 +78,9 @@ margin-bottom: 86px;
 .col:before{
   content: "";
   background: url("https://i.ibb.co/SfHkDfh/image-2.png");
-  left: 369px;
+ bottom: 0;
   position: absolute;
-  top: -86px;
+ right: -50px;
   width: 503px;
   height: 360px;
 }
@@ -147,12 +148,13 @@ h3{
   margin: 100px 0 100px 45px;
 }
 .row{
-  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap:wrap;
   margin: 0 -130px;
 }
 .col-4{
-  width: 24%;
-  padding: 0 25px;
+  width: 25%;
+  padding: 0 15px;
   display: inline-block;
   margin-bottom: 20px;
 }
