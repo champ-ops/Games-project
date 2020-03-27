@@ -64,6 +64,9 @@ a,a:hover{
   left: 40px;
   position: absolute;
 }
+#list-of-games{
+margin-bottom: 86px;
+}
 .col{
   width: 738px;
   height: 274px;
