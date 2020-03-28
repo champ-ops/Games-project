@@ -60,9 +60,8 @@ a,a:hover{
 }
 .sub-main {
   display: flex;
-  top: 216px;
-  left: 40px;
-  position: absolute;
+  margin-top: 216px;
+  margin-left: 40px;
 }
 #list-of-games{
 margin-bottom: 86px;
